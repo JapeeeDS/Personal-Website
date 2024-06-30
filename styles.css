@@ -1575,3 +1575,62 @@ h5 {
     margin-top: 10px;
   }
   
+
+  /* Connect UI Design Project */
+
+  .conn-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .connImg {
+    display: block;
+    width: 400px;
+    height: 250px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+  }
+  
+  .conn-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 250px;
+    opacity:0;
+    transition: .5s ease;
+  }
+  
+  .conn-overlay:hover {
+    color:white;
+    opacity: 100%;
+    background:rgba(0,0,0,0.5);
+    border: 2px solid #39FF13;
+    border-radius: 20px;
+  }
+
+  
+  .conn-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:300px;
+  }
+
+  .conn-content {
+    color:#ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    width: 400px;
+    margin-top: 10px;
+  }
+  
